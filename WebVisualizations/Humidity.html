@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Data Visualizations</title>
 
     
@@ -48,44 +49,39 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <img  src="Resources/City Latitude vs. Humidity.png" alt="..."  style="width:300px;height:300px;" align = "left" hspace = 20 vspace =20>
-                <p> For this project, I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. I utilized the OpenWeatherMap API to create a representative model of weather across world cities. <br/><br/>
 
-                    During the project I created scatter plot visualizations to showcase the following relationships:<br/><br/>
-                        
-                        * Cloudiness (%) vs. Latitude<br/>
-                        * Humidity (%) vs. Latitude<br/>
-                        * Maximum Temperature (F) vs. Latitude<br/>
-                        * Wind Speed (mph) vs. Latitude<br/><br/>
-                    
-                    You can find these visualizations by clicking on the pictures to the right side of the screen, or in the dropdown menu, where you will also find links to a side-by-side comparison and some of the raw city data.
+                <header>Visualization for Humidity vs. Latitude</header>
+
+                <img  src="Resources/City Latitude vs. Humidity.png" alt="..."  style="width:300px;height:300px;" align = "left" hspace = 20 vspace =20>
+                <p> <br/><br/><br/><br/><br/>
+                    I used the OpenWeatherMap API to pull humidity data for each of my cities by coordinates, which I then visualized as a scatter plot. There do not appear to be any big correlations between latitude and humidity. 
                     </p>
             </div>
             <div class ="col-md-4">
-                <h3>Visualizations</h3>
+                <h2>All Visualizations</h2>
                     <div class="row">
-                    <div class="col-md-12" >              
+                    <div class="col-md-6" >              
                         <a href="Cloudiness.html">
-                        <img  src="Resources/City Latitude vs. Cloudiness.png" alt="..." style="width:250px;height:200px;" hspace=20 vspace=20>
+                        <img  src="Resources/City Latitude vs. Cloudiness.png" alt="..." style="width:200px;height:200px;" hspace=20 vspace=20>
                         </a>
                     </div>
-                       <div class="col-md-12">
+                    <div class="col-md-6">
                         <a href="Humidity.html">
-                        <img src="Resources/City Latitude vs. Humidity.png" alt="..." style="width:250px;height:200px;" hspace=20 vspace=20></br>
-                      </a>
+                        <img src="Resources/City Latitude vs. Humidity.png" alt="..." style="width:200px;height:200px;" hspace=20 vspace=20></br>
+                    </a>
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <a href="Max-Temperature.html">
-                        <img width = 100 src="Resources/City Latitude vs. Max Temperature.png" alt="..." style="width:250px;height:200px;" hspace=20 vspace=20>
+                        <img width = 100 src="Resources/City Latitude vs. Max Temperature.png" alt="..." style="width:200px;height:200px;" hspace=20 vspace=20>
                         </a>
                         </div>
-                     <div class="col-md-12">
-                       <a href="Wind-Speed.html">
-                        <img width = 100 src="Resources/City Latitude vs. Wind Speed.png" alt="..." style="width:250px;height:200px;"hspace=20 vspace=20>
-                      </a>
-                      </div>
+                    <div class="col-md-6">
+                    <a href="Wind-Speed.html">
+                        <img width = 100 src="Resources/City Latitude vs. Wind Speed.png" alt="..." style="width:200px;height:200px;"hspace=20 vspace=20>
+                    </a>
+                    </div>
                     </div>
                 </div> 
             </div>

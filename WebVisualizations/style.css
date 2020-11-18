@@ -1,16 +1,13 @@
-.navigation{
-width : 1
-}
-
-.nav-item{
-  float : right
-}
 
 .navbar-toggler{
-  background-color: aqua;
+  background-color: aquamarine
 
 }
 
+.h2{
+  text-align: center;
+  color : aquamarine;
+}
 .navbar{
   background-color: cadetblue;
 
