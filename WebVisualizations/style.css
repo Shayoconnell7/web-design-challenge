@@ -1,14 +1,73 @@
 
 .navbar-toggler{
-  background-color: aquamarine
+  background-color: #4aaaa5;
+  color: white;
 
 }
-
-.h2{
-  text-align: center;
-  color : aquamarine;
-}
+/* 
+.bg-light {
+  background-color: #f8f9fa;
+} */
 .navbar{
-  background-color: cadetblue;
+  background-color: #f8f9fa;
+  color: grey;
+}
+
+.navbar{
+  color: black;
+}
+
+@media(max-width:922px){
+  a{
+  color: white;
+
+}
+}
+
+
+a{
+  color: grey
+
+}
+
+.navbar-nav{
+  color: black;
+}
+.navbar-brand{
+  color: white;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media(max-width: 922px){
+  .navbar-brand{
+    color: white;
+    }
+}
+
+@media(max-width: 992px) {
+  .navbar-expand-lg{
+    background-color: #4aaaa5;
+  }
+}
+
+
+.image{
+  color: #4aaaa5;
+  text-align: center;
+}
+
+.head{
+  color: #4aaaa5  
+}
+.main{
+  color: #4aaaa5;
+
+}
+.sidebar{
+  color: #4aaaa5;
 
 }
