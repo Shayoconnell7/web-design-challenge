@@ -1,27 +1,7 @@
 
-.navbar-toggler{
-  background-color: #4aaaa5;
-  color: white;
-
-}
-/* 
-.bg-light {
-  background-color: #f8f9fa;
-} */
 .navbar{
   background-color: #f8f9fa;
   color: grey;
-}
-
-.navbar{
-  color: black;
-}
-
-@media(max-width:922px){
-  a{
-  color: white;
-
-}
 }
 
 
@@ -30,10 +10,17 @@ a{
 
 }
 
-.navbar-nav{
-  color: black;
+@media(max-width:922px){
+  a{
+  color: white;
 }
-.navbar-brand{
+} 
+
+.navbar-nav{
+  margin-left:auto;
+  color: black;
+} 
+ .navbar-brand{
   color: white;
   background-color: #4aaaa5;
   padding-top: 10px;
@@ -42,18 +29,23 @@ a{
   padding-right: 10px;
 }
 
+.navbar-toggler{
+  border-color:white;
+  color:white;
+  font-size: x-large;
+}
+
 @media(max-width: 922px){
   .navbar-brand{
     color: white;
     }
 }
 
-@media(max-width: 992px) {
+@media only screen and (max-width: 922px) {
   .navbar-expand-lg{
-    background-color: #4aaaa5;
+    background: #4aaaa5;
   }
 }
-
 
 .image{
   color: #4aaaa5;
