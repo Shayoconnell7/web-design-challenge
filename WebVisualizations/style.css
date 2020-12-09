@@ -1,0 +1,65 @@
+
+.navbar{
+  background-color: #f8f9fa;
+  color: grey;
+}
+
+
+a{
+  color: grey
+
+}
+
+@media(max-width:922px){
+  a{
+  color: white;
+}
+} 
+
+.navbar-nav{
+  margin-left:auto;
+  color: black;
+} 
+ .navbar-brand{
+  color: white;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler{
+  border-color:white;
+  color:white;
+  font-size: x-large;
+}
+
+@media(max-width: 922px){
+  .navbar-brand{
+    color: white;
+    }
+}
+
+@media only screen and (max-width: 922px) {
+  .navbar-expand-lg{
+    background: #4aaaa5;
+  }
+}
+
+.image{
+  color: #4aaaa5;
+  text-align: center;
+}
+
+.head{
+  color: #4aaaa5  
+}
+.main{
+  color: #4aaaa5;
+
+}
+.sidebar{
+  color: #4aaaa5;
+
+}
